@@ -81,7 +81,7 @@ export default function Home() {
 
               <div className="relative rounded-2xl overflow-hidden border border-[var(--border)] aspect-[4/5] flex items-center justify-center bg-gradient-to-br from-[var(--panel)] to-[var(--bg-soft)]">
                <img
-  src="./public/images/me.jpeg"
+  src="/images/me.jpeg"
   alt={profile.name}
   className="w-full h-full object-cover"
 />  

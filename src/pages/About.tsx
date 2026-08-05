@@ -16,7 +16,7 @@ export default function About() {
           <RevealOnScroll>
             <div className="relative aspect-[4/5] rounded-[18px] overflow-hidden border border-[var(--border)] bg-gradient-to-br from-[var(--panel)] to-[var(--panel-2)] flex items-center justify-center">
              <img
-  src="./public/images/me.jpeg"
+  src="/public/images/me.jpeg"
   alt="Shruthi Sagar"
   className="w-full h-full object-cover"
 />

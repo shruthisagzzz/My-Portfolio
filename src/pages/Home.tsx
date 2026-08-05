@@ -13,17 +13,11 @@ import {
   profile,
 } from "../data/portfolio";
 
-const LEVEL_COLOR = [
-  "var(--panel-2)",
-  "rgba(242,169,59,0.25)",
-  "rgba(242,169,59,0.45)",
-  "rgba(242,169,59,0.65)",
-  "rgba(242,169,59,0.9)",
-];
+
 
 export default function Home() {
   const typed = useTypewriter(roles);
-  const { days, total, loading, error } = useGitHubContributions(profile.githubUsername);
+
 
   return (
     <>
@@ -88,7 +82,7 @@ export default function Home() {
 
               <div className="relative rounded-2xl overflow-hidden border border-[var(--border)] aspect-[4/5] flex items-center justify-center bg-gradient-to-br from-[var(--panel)] to-[var(--bg-soft)]">
                <img
-  src="/public/images/me.jpeg"
+  src="./public/images/me.jpeg"
   alt={profile.name}
   className="w-full h-full object-cover"
 />  

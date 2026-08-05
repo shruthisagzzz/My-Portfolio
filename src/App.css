@@ -1,0 +1,59 @@
+/* Design-system utility classes that are awkward to express purely with
+   Tailwind (custom cursor, blinking caret, decorative eyebrow label). */
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eyebrow::before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  background: var(--gold);
+}
+
+/* Custom cursor */
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--gold);
+}
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--border-strong);
+  transition: width 0.2s, height 0.2s, border-color 0.2s;
+}
+.cursor-ring.active {
+  width: 54px;
+  height: 54px;
+  border-color: var(--gold);
+}
+@media (pointer: coarse) {
+  .cursor-dot,
+  .cursor-ring {
+    display: none !important;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,5 +1,4 @@
 import { useTypewriter } from "../hooks/useTypewriter";
-import { useGitHubContributions } from "../hooks/useGitHubContributions";
 import RevealOnScroll from "../components/ui/RevealOnScroll";
 import MagneticButton from "../components/ui/MagneticButton";
 import SkillsNetwork from "../components/ui/SkillsNetwork";

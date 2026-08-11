@@ -13,8 +13,6 @@ A dark, glassmorphic personal portfolio built with React 19, TypeScript, Vite, a
 ---
 
 ## Preview
-
-| Home | Skills Network | Projects |
 |---|---|---|
 |<img width="1917" height="953" alt="image" src="https://github.com/user-attachments/assets/9f4482cc-5f99-4f9e-a338-1843dfa7e2da" />
 |<img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/87380dd1-ba2e-42ae-a18d-8bb868d29794" />

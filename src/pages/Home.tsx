@@ -28,7 +28,7 @@ export default function Home() {
               <span className="relative w-2 h-2 rounded-full bg-[var(--success)]">
                 <span className="absolute inset-[-4px] rounded-full border border-[var(--success)] animate-ping" />
               </span>
-              OPEN TO FULL-TIME SWE ROLES · BENGALURU / REMOTE
+              OPEN TO FULL-TIME ROLES · BENGALURU / REMOTE
             </div>
 
             <h1 className="font-[var(--font-serif)] font-semibold leading-[1.02] tracking-tight text-[clamp(40px,6.4vw,76px)]">
@@ -239,22 +239,7 @@ export default function Home() {
             </div>
           </RevealOnScroll>
 
-          <RevealOnScroll delay={200}>
-            <div className="mt-14 border border-[var(--border)] rounded-2xl p-7">
-              <h4 className="flex justify-between items-center font-semibold text-[15px] mb-4">
-                GitHub-style contribution activity
-                <span className="font-mono text-xs text-[var(--text-dim)] font-normal">connect the GitHub API to populate live</span>
-              </h4>
-            <div className="grid grid-cols-[repeat(26,1fr)] sm:grid-cols-[repeat(52,1fr)] gap-[3px]">
-  {Array.from({ length: 52 * 7 }).map((_, i) => (
-    <div
-      key={i}
-      className="aspect-square rounded-sm bg-[var(--panel-2)] hover:bg-[var(--gold)] transition-colors"
-    />
-  ))}
-</div>
-            </div>
-          </RevealOnScroll>
+         
         </div>
       </section>
 

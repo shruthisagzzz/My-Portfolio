@@ -114,6 +114,40 @@ export const projects: ProjectItem[] = [
     challenges:
       "Optimizing the KNN classifier to run reliably on constrained embedded hardware while handling variable camera input conditions.",
   },
+    {
+    num: "03",
+    title: "Website Performance Analyzer",
+    description:
+      "A full-stack web application that analyzes website performance using Google's PageSpeed Insights API and Lighthouse.",
+
+
+    tech: [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Chart.js",
+      "PageSpeed API",
+      "Lighthouse"
+    ],
+
+    problem:
+      "Developers and website owners need a simple way to understand website performance, SEO, accessibility, and Core Web Vitals.",
+
+    solution:
+      "Built a full-stack analyzer that accepts a public website URL and retrieves real-time Lighthouse and PageSpeed Insights data.",
+
+    features:
+      "Performance, SEO, and Accessibility scoring; LCP, CLS, and INP analysis; interactive charts; and automated optimization recommendations.",
+
+    challenges:
+      "Handling external API responses, processing Lighthouse metrics, categorizing Core Web Vitals, and presenting complex performance data through a responsive interface.",
+
+    githubUrl:
+      "https://github.com/shruthisagzzz/Website-Analyzer",
+
+    caseStudyUrl:
+      "https://bitspeed-96mc.onrender.com"
+  },
 ];
 
 export const achievements: AchievementItem[] = [

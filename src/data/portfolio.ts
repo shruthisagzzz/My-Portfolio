@@ -142,11 +142,6 @@ export const projects: ProjectItem[] = [
     challenges:
       "Handling external API responses, processing Lighthouse metrics, categorizing Core Web Vitals, and presenting complex performance data through a responsive interface.",
 
-    githubUrl:
-      "https://github.com/shruthisagzzz/Website-Analyzer",
-
-    caseStudyUrl:
-      "https://bitspeed-96mc.onrender.com"
   },
 ];
 

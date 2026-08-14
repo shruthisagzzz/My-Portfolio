@@ -15,7 +15,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/shruthi-sagar-a22a312b4",
   github: "https://github.com/shruthisagzzz",
   githubUsername: "shruthisagzzz", // ← set this to your real GitHub username
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Resume sagar.pdf",
 };
 
 export const roles: string[] = [
@@ -28,13 +28,12 @@ export const roles: string[] = [
 ];
 
 export const skillCategories: SkillCategory[] = [
-  { id: "lang", label: "Languages", icon: "◈", items: ["Java", "Python", "JavaScript", "SQL"] },
+  { id: "lang", label: "Languages", icon: "◈", items: ["Java", "JavaScript", "SQL"] },
   { id: "frontend", label: "Frontend", icon: "▣", items: ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"] },
-  { id: "backend", label: "Backend", icon: "⌘", items: ["Node.js", "Express.js", "REST APIs"] },
-  { id: "db", label: "Databases", icon: "▤", items: ["MySQL", "PostgreSQL", "MongoDB"] },
+  { id: "db", label: "Databases", icon: "▤", items: ["SQL"] },
   { id: "ai", label: "AI & Data", icon: "✦", items: ["Machine Learning", "NumPy", "Pandas", "Power BI", "Tableau"] },
   { id: "core", label: "Core CS", icon: "◎", items: ["DSA", "OOP", "DBMS", "OS", "Agile"] },
-  { id: "tools", label: "Dev Tools", icon: "⌥", items: ["Git", "GitHub", "VS Code", "Vite", "npm"] },
+  { id: "tools", label: "Dev Tools", icon: "⌥", items: ["Git", "GitHub", "VS Code",] },
   { id: "platforms", label: "Platforms", icon: "☁", items: ["Shopify", "WordPress", "WooCommerce"] },
 ];
 
@@ -98,6 +97,10 @@ export const projects: ProjectItem[] = [
       "Automated proposal analysis, eligibility scoring, and impact prediction driven by structured applicant data.",
     challenges:
       "Designing feature representations that captured proposal quality objectively, without introducing bias from incomplete applicant data.",
+      image: "/images/Social-Impact.png",
+       githubUrl:
+      "https://github.com/shruthisagzzz/Social-Impact",
+
   },
   {
     num: "02",
@@ -113,13 +116,13 @@ export const projects: ProjectItem[] = [
       "Real-time sensor readings, camera-based waste classification, and predictive alerts for collection scheduling.",
     challenges:
       "Optimizing the KNN classifier to run reliably on constrained embedded hardware while handling variable camera input conditions.",
+      image: "/images/Smart-monitor.webp"
   },
     {
     num: "03",
     title: "Website Performance Analyzer",
     description:
       "A full-stack web application that analyzes website performance using Google's PageSpeed Insights API and Lighthouse.",
-
 
     tech: [
       "JavaScript",
@@ -141,7 +144,13 @@ export const projects: ProjectItem[] = [
 
     challenges:
       "Handling external API responses, processing Lighthouse metrics, categorizing Core Web Vitals, and presenting complex performance data through a responsive interface.",
+      image: "/images/Website-Analyzer.png",
 
+    githubUrl:
+      "https://github.com/shruthisagzzz/Website-Analyzer",
+
+    // caseStudyUrl:
+    //   "https://bitspeed-96mc.onrender.com"
   },
 ];
 
@@ -200,9 +209,8 @@ export const testimonials: TestimonialItem[] = [
 ];
 
 export const resumeSummary: string[] = [
-  "Full Stack Developer — React.js, Node.js, Express.js, REST APIs",
-  "Data Science undergraduate — Python, ML, NumPy, Pandas, Power BI, Tableau",
+  "Data Science undergraduate —  Power BI, Tableau",
   "6+ months professional experience across two roles at PANDAeCe Pvt Ltd",
-  "Databases: MySQL, PostgreSQL, MongoDB · Git & GitHub workflow",
+  "Databases: MySQL,  · Git & GitHub workflow",
   "Certified in DBMS (Infosys) and PostgreSQL (Gold Grade, 97%)",
 ];

@@ -14,6 +14,7 @@ export interface ExperienceItem {
 }
 
 export interface ProjectItem {
+image?: string;
   num: string;
   title: string;
   tech: string[];

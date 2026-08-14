@@ -31,7 +31,7 @@ export const skillCategories: SkillCategory[] = [
   { id: "lang", label: "Languages", icon: "◈", items: ["Java", "JavaScript", "SQL"] },
   { id: "frontend", label: "Frontend", icon: "▣", items: ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"] },
   { id: "db", label: "Databases", icon: "▤", items: ["SQL"] },
-  { id: "ai", label: "AI & Data", icon: "✦", items: ["Machine Learning",, "Power BI", "Tableau"] },
+  { id: "ai", label: "AI & Data", icon: "✦", items: ["Machine Learning", "Power BI", "Tableau"] },
   { id: "core", label: "Core CS", icon: "◎", items: ["DSA", "OOP", "DBMS", "OS", "Agile"] },
   { id: "tools", label: "Dev Tools", icon: "⌥", items: ["Git", "GitHub", "VS Code",] },
   { id: "platforms", label: "Platforms", icon: "☁", items: ["Shopify", "WordPress", "WooCommerce"] },
